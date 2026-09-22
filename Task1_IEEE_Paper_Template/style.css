@@ -1,0 +1,88 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #e6e6e6;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.paper {
+  width: 850px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 60px 70px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.authors {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.author p {
+  margin: 2px 0;
+}
+
+.twocolumn {
+  column-count: 2;
+  column-gap: 25px;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.abstract, .keywords {
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  font-size: 13px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+h3 {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+p {
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+caption {
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 4px 6px;
+  text-align: center;
+}
+
+.references {
+  font-size: 12px;
+  padding-left: 18px;
+  margin: 0;
+}
+
+.references li {
+  margin-bottom: 6px;
+}
